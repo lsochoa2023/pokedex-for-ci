@@ -1,0 +1,15 @@
+name: Say hello
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  hellow_word:
+    runs on: ubuntu-latest
+    steps:
+      - name: Echo the mensaje
+        run: |
+          echo "Hello midu!"
+
